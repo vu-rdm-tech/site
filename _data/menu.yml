@@ -39,6 +39,9 @@ getting-started:
         url: /getting-started/archiving.html
       - page: Publishing
         url: /getting-started/publishing.html
+        sub: 
+          - page: Licenses
+            url: /getting-started/selecting-license.html
       - page: Notifications
         url: /getting-started/notification-settings.html
   - page: The Yoda network drive
