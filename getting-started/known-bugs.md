@@ -10,7 +10,7 @@ _Updated 2025-06-11_
 ## Recently fixed
 
 ### - Datasets can be submitted without mandatory Creator Affiliation name
-_Fixed 2035-06-04_
+_Fixed 2025-06-04_
 When leaving the [Creator] [Affiliation Name] field empty, the system will indicate clearly that the metadata form is not complete by marking the field with a red border and showing the green "Required for the vault" bar as incomplete. 
 On clicking "submit" the system should show an error "Metadata is not valid, please open metadata form for more information", but it does not and the dataset is allowed to be further processed and can be secured in the Vault normally. 
 If the dataset is later submitted and approved for publication the publication process fails and no resolvable DOI is generated.
