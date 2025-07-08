@@ -25,7 +25,7 @@ In the form you can also indicate if you would like some help getting started wi
 
 The costs of storing data in Yoda have been harmonized with the other research data storage and archiving solutions provided at the VU. Usage of Yoda for small amounts (up to hundreds of GB) of data is free.[This page](https://vu.nl/en/employee/research-data-support/research-archiving-storage-cost-model) on vu.nl explains the cost model and free use limit.
 
-Note that the cost of [archived](archiving.md) in the Yoda Vault is significantly cheaper than keeping all your data in active storage.
+Note that the cost of [archived](archiving.md) in the Yoda Vault is significantly lower than keeping all your data in active storage.
 
 
 
