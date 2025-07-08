@@ -17,19 +17,6 @@ Windows 10/11 users can run the iCommands in [the Windows Subsystem for Linux](h
 There is no officially supported icommands installation for Mac OSX. You could try https://learning.cyverse.org/ds/icommands/#icommands-installation-for-mac-os-x or install the icommands inside a Linux VM.
 
 ### Installing iCommands on CentOS
-
-iRODS currently supports CentOS 7.
-
-Use these commands to install the iCommands package on CentOS 7, the preferred version for Yoda 1.8 is 4.2.9:
-
-```
-sudo yum -y install wget epel-release yum-plugin-versionlock
-sudo rpm --import https://packages.irods.org/irods-signing-key.asc
-wget -qO - https://packages.irods.org/renci-irods.yum.repo | sudo tee /etc/yum.repos.d/renci-irods.yum.repo
-sudo yum -y install irods-runtime-4.2.9 irods-icommands-4.2.9
-sudo yum versionlock irods-runtime irods-icommands
-```
-
 Only the newest version 4.3.0 is supported on CentOS 8, but this should not be a problem:
 ```
 sudo yum -y install wget epel-release yum-plugin-versionlock
@@ -40,7 +27,7 @@ sudo yum versionlock irods-runtime irods-icommands
 ```
 
 ### Installing iCommands on Ubuntu
-The following should work to install the icommands 4.3.0 on Ubuntu 20 or 22.
+The following should work to install the icommands 4.3.0 on Ubuntu 22 or 24.
 ```
 wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
 echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
@@ -75,9 +62,9 @@ You will need to change the example user name to your Yoda user name.
 ## Getting started with iCommands
 
 After installing and configuring the iCommands, you should be able to log in
-on the Yoda environment using the [iinit command](https://docs.irods.org/master/icommands/user/#iinit). 
+on the Yoda environment using the [iinit command](https://docs.irods.org/4.2.12/icommands/user/#iinit). 
 Note that VU users need to set a Data Access Password.
 
 Sections 5.3, 5.4 and 5.5 of the [iRODS beginner training](https://irods.org/uploads/2016/06/irods_beginner_training_2016.pdf) 
-contain some examples of how to use the iCommands to transfer and manage files. [The iCommands manual](https://docs.irods.org/master/icommands/user/)
+contain some examples of how to use the iCommands to transfer and manage files. [The iCommands manual](https://docs.irods.org/4.2.12/icommands/user/)
 has additional information.
